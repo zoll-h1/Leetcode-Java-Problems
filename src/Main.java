@@ -39,6 +39,11 @@ public class Main {
                         longCommonPrefix.getQuestion(),
                         longCommonPrefix.getCode(),
                         () -> longCommonPrefix.solve());
+                case "5" -> openProblem(scanner,
+                        validParentheses.getTitle(),
+                        validParentheses.getQuestion(),
+                        validParentheses.getCode(),
+                        () -> validParentheses.solve());
                 default -> System.out.println("\n  Invalid choice. Try again.");
             }
         }
@@ -103,6 +108,9 @@ public class Main {
         System.out.println("╠══════════════════════════════════════════════╣");
         System.out.println("║  [4]  " + longCommonPrefix.getTitle()
                 + " ".repeat(45 - 7 - longCommonPrefix.getTitle().length()) + " ║");
+        System.out.println("╠══════════════════════════════════════════════╣");
+        System.out.println("║  [5]  " + validParentheses.getTitle()
+                + " ".repeat(45 - 7 - validParentheses.getTitle().length()) + " ║");
         System.out.println("╠══════════════════════════════════════════════╣");
         System.out.println("║  [0]  Exit                                   ║");
         System.out.println("╚══════════════════════════════════════════════╝");

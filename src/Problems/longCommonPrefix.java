@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class longCommonPrefix {
     public static String getTitle() {
-        return "Longest Common Prefix";
+        return "14. Longest Common Prefix";
     }
 
     public static String getQuestion() {
