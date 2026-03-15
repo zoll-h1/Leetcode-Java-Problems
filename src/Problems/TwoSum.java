@@ -13,6 +13,7 @@ public class TwoSum {
                 return indices of the two numbers such that they add up to target.
                 Example: nums = [2,7,11,15], target = 9
                 Output: [0, 1]
+                Difficulty: Easy  |  Topic: Math
                 """;
     }
     public static void solve() {

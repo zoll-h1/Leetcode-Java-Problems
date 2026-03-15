@@ -34,6 +34,11 @@ public class Main {
                         RomanToInteger.getQuestion(),
                         RomanToInteger.getCode(),
                         () -> RomanToInteger.solve());
+                case "4" -> openProblem(scanner,
+                        longCommonPrefix.getTitle(),
+                        longCommonPrefix.getQuestion(),
+                        longCommonPrefix.getCode(),
+                        () -> longCommonPrefix.solve());
                 default -> System.out.println("\n  Invalid choice. Try again.");
             }
         }
@@ -82,7 +87,7 @@ public class Main {
         }
     }
 
-    // ── Main menu ────────────────────────────────────────
+    // ── Main menu ────────────────────────────────────────-
     private static void printMenu() {
         System.out.println("\n╔══════════════════════════════════════════════╗");
         System.out.println("║           LEETCODE PRACTICE - JAVA           ║");
@@ -95,6 +100,9 @@ public class Main {
         System.out.println("╠══════════════════════════════════════════════╣");
         System.out.println("║  [3]  " + RomanToInteger.getTitle()
                 + " ".repeat(45 - 7 - RomanToInteger.getTitle().length()) + " ║");
+        System.out.println("╠══════════════════════════════════════════════╣");
+        System.out.println("║  [4]  " + longCommonPrefix.getTitle()
+                + " ".repeat(45 - 7 - longCommonPrefix.getTitle().length()) + " ║");
         System.out.println("╠══════════════════════════════════════════════╣");
         System.out.println("║  [0]  Exit                                   ║");
         System.out.println("╚══════════════════════════════════════════════╝");

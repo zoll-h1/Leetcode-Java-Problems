@@ -15,6 +15,7 @@ public class RomanToInteger {
                The number 27 is written as XXVII, which is XX + V + II.
                Example 1:  Input: s = "III" -> Output: 3
                Explanation: III = 3.
+               Difficulty: Easy  |  Topic: Math
                """;
     }
     public static String getCode() {
